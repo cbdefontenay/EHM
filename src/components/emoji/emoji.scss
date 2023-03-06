@@ -1,0 +1,14 @@
+.emoji {
+  img {
+    width: 17rem;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .emoji {
+    img {
+      width: 14rem;
+    }
+  }
+}

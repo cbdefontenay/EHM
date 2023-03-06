@@ -1,0 +1,84 @@
+.name-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  border: 2px solid #fff;
+  padding: 3rem;
+  margin-top: 8rem;
+  margin-left: 25%;
+  box-shadow: 10px 8px 9px rgba(206, 18, 18, 0.3);
+  animation: fadeIn 3s;
+
+  &:hover {
+    transform: scale(1);
+    box-shadow: 4px 4px 20px #11036e;
+  }
+
+  .input-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+
+    .input-field {
+      padding: 1rem;
+      width: 70%;
+      border: 1px solid #fff;
+      color: #fff;
+      background: #080a0c;
+
+      ::placeholder {
+        color: #fff;
+      }
+    }
+
+    .button {
+      background: transparent;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 1rem 2rem;
+      margin-left: 2rem;
+      cursor: pointer;
+
+      &:hover {
+        box-shadow: 4px 4px 15px #11036e;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .name-form-container {
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 9rem;
+    padding: 1rem;
+    animation: none;
+
+    .input-name {
+      font-size: 1rem;
+      text-align: justify;
+
+      .input-field {
+        padding: 0.8rem;
+        width: 100%;
+      }
+    }
+
+    .button {
+      padding: 0.2rem;
+      margin-top: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 7000px) {
+  .name-form-container {
+    width: 30%;
+    margin-left: 33%;
+    margin-top: 20rem;
+  }
+}

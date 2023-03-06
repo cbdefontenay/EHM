@@ -1,0 +1,29 @@
+.nav-bar-container {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  padding: 2rem;
+  margin: 0;
+  z-index: -1;
+
+  .back-button {
+    color: #fff;
+    padding: 5%;
+    cursor: pointer;
+    width: 1em;
+    height: 1em;
+  }
+
+  .button-container {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+  }
+
+  .full-screen-button {
+    color: #fff;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+}
