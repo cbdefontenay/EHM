@@ -8,6 +8,7 @@ import UserNameContext from "./components/Context/UserNameContext ";
 import { useState } from "react";
 
 import "./App.scss";
+import FirstRound from "./routes/Round1/FirstRound";
 
 const App = () => {
   const [userName, setUserName] = useState("");
@@ -24,6 +25,7 @@ const App = () => {
             element={<NameForm setUserName={setUserName} />}
           />
           <Route path="spiel" element={<SpielStart />} />
+          <Route path="erste" element={<FirstRound />} />
         </Routes>
       </UserNameContext.Provider>
     </>

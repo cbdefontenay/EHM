@@ -1,6 +1,6 @@
 .emoji {
   img {
-    width: 17rem;
+    width: 13rem;
     border-radius: 50%;
   }
 }
@@ -9,6 +9,14 @@
   .emoji {
     img {
       width: 14rem;
+    }
+  }
+}
+
+@media screen and (min-width: 3000px) {
+  .emoji {
+    img {
+      width: 19rem;
     }
   }
 }
