@@ -20,9 +20,25 @@ const FirstRound = () => {
           und Anweisungen laut vor.
         </p>
         <p className="first-round-text">
-          Wer kann das übernehmen? {userName}, trage hier die <br />
-          Namen der beiden Teammitglieder ein, die für euch vorlesen:
+          Wer kann das übernehmen? {userName}, trage hier die Namen der beiden
+          Teammitglieder ein, die für euch vorlesen:
         </p>
+
+        <form className="first-input">
+          <input
+            className="input-one"
+            type="input"
+            placeholder="Erster Name..."
+          />
+          <input
+            className="input-one"
+            type="input"
+            placeholder="Zeiter Name..."
+          />
+        </form>
+        <div className="weiter">
+          <span>Weiter</span>
+        </div>
       </div>
     </>
   );
